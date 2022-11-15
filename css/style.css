@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,red,yellow);
+    margin: 0px;
+    font-family: sans-serif;
+    position: relative;
+}
+.fondo-4{
+    background-image: linear-gradient(to left,rgb(90, 90, 187),rgb(138, 185, 138)  );
+}
+/*seccion inicio*/
+
+header{
+    display: flex;
+    background-color: coral;
+    justify-content: space-between;
+    height: 80px; 
+    align-items: center;
+
+}
+
+.nav-color{
+    background-color: coral !important;
+}
+
+
+.index-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal{
+    height: 80px;
+}
+
+.contacto{
+    height: 80px;
+}
+
+.galeria{
+    height: 80px;
+}
+
+.productos{
+    height: 80px;
+}
+
+.historia{
+    height: 80;
+}
+
+.menu ul{
+    margin:0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li:hover{
+    background: rgb(158, 94, 70)
+
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(197, 35, 35)
+}
+
+.a{
+    font-weight: 600px;
+    position: relative;
+}
+
+h1{
+    color: red; 
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+
+.contenedor-1{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.h2-principal{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: red;
+    
+}
+
+h3{
+    color: red;
+}
+
+.tabla{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.table-border{
+    display: flex;
+    justify-content: center;
+}
+
+
+ul li{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    color: black
+}
+
+
+.env :hover{
+background-color: black;
+}
+
+card-parrafo{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.pie{
+    background-color: coral;
+    
+    
+}
+
+p{
+    display: flex;
+    color: black;
+    justify-items: center;
+    align-items: center;
+}
+
+/*seccion de footer de todas las paginas*/
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fac{
+    padding: 10px;
+    height: 40px;
+}
+
+.ins{
+    padding: 10px;
+    height: 40px;
+}
+
+.wha{
+    padding: 10px;
+    height: 40px;
+}
+
+/*seccion de cards produtos*/
+
+.parrafo{
+    padding: 30px;
+}
+
+
+
+
+/*card suplementos*/
+.contenedor{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+
+}
+
+
+.card-1{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.card-2{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card-3{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/*card pesas*/
+segundo{
+    background-color: aqua;
+    grid-area:segundo ;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.card-4{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-5{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-6{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card-tex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+fin{
+    background-color: red
+}
+
+.boton{
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.div-botone{
+    display: flex;
+    width: 10px;
+    height: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+
+
+/*seccion cards galeria*/
+
+.padre-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+card-1{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+
+}
+
+card-2{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+}
+card-3{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+}
+
+
+
+
+/*.card{
+    display: flex;
+    overflow: hidden;
+    background: #afff;
+    box-shadow: 0 15px 50px #033f49;
+    border-radius: 10px;
+}*/
+/*.contenedor{
+    width: 60%;
+    height: 30%;
+    display: block;
+    grid-template-rows: 50px 15px 50px;
+    padding: left 20px; ;
+    
+}*/
+
+.card-img{
+    background: url(img/msj.jpg);
+    width: 210px;
+    height: 200px;
+    background-size:cover;
+    
+}
+
+
+
+.img-perro{
+    left: 50px;
+}
+
+
+.perro:hover{
+    transform: scale(1.2);
+}
+/** seccion contacto**/
+
+.contenedor-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.datos{
+    justify-content: center;
+    justify-content: space-between;
+}
+
+/*media queries*/
+
+
+
+@media (min-width: 1px) and (max-width: 991.98px){
+    /*index*/
+    .header
+    {
+        display: flex;
+    }
+    .index-main{
+        padding-top: 80px;
+
+    }
+    /*productos*/
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+
+
+
+
+
+
+
