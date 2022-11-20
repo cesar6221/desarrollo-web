@@ -13,9 +13,13 @@ body{
 }
 /*seccion inicio*/
 
+.principal{
+    height: 20px;
+}
+
 header{
     display: flex;
-    background-color: coral;
+    background-color:   coral;
     justify-content: space-between;
     height: 80px; 
     align-items: center;
@@ -165,7 +169,7 @@ p{
     align-items: center;
     gap: 20px;
 }
-
+/*seccion instagran facebook  whatsAPP*/
 .fac{
     padding: 10px;
     height: 40px;
@@ -197,13 +201,14 @@ p{
     align-items: center;
     justify-content: center;
     
-}
+} 
+
 
 .card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    gap: 50px;
 
 }
 
@@ -318,6 +323,7 @@ fin{
     margin: 0 auto;
     justify-content: center;
 }
+
 .div-botone{
     display: flex;
     width: 10px;
@@ -380,7 +386,7 @@ card-3{
 }*/
 
 .card-img{
-    background: url(img/msj.jpg);
+    background: 
     width: 210px;
     height: 200px;
     background-size:cover;
