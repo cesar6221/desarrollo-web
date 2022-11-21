@@ -196,7 +196,8 @@ p{
 
 /*card suplementos*/
 .contenedor{
-    padding: 40px 0;
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,6 +307,7 @@ segundo{
     
 }
 
+
 .card-tex{
     display: flex;
     align-items: center;
@@ -337,10 +339,85 @@ fin{
 
 
 
-/*seccion cards galeria*/
+/*seccion cards galeria cards*/
+.galeria{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.container-1{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    padding: 40px 0;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+
+.card:hover{
+box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+.contenido{
+    padding: 15px;
+    text-align: center;
+
+}
+
+.contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 
 .padre-flex{
     display: flex;
+    padding: 10% 0%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -348,24 +425,63 @@ fin{
     
 }
 
-card-1{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
+.contenedor-flex{
+    display: flex;
+    padding: 10% 0%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
-card-2{
+
+
+.galeria-1{
     border: 1px solid black;
     width: 210px;
     height: 353px;
-}
-card-3{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
+
+.galeria-2{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.galeria-3{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card msj{
+width: 100%;
+height: 410px;
+
+}
 
 
 
@@ -385,9 +501,9 @@ card-3{
     
 }*/
 
-.card-img{
-    background: 
-    width: 210px;
+card-img{
+    background: black;
+    width:  200PX ;
     height: 200px;
     background-size:cover;
     
