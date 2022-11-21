@@ -45,11 +45,6 @@ header{
 .contacto{
     height: 80px;
 }
-
-.galeria{
-    height: 80px;
-}
-
 .productos{
     height: 80px;
 }
@@ -195,26 +190,21 @@ p{
 
 
 /*card suplementos*/
-.contenedor{
+.cards{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     
 } 
 
 
-.card{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 50px;
-
-}
 
 
-.card-1{
+.cards-1{
     border: 1px solid black;
     width: 210px;
     height: 353px;
@@ -229,7 +219,7 @@ p{
 
 
 
-.card-2{
+.cards-2{
     border: 1px solid black;
     width: 210px;
     height: 353px;
@@ -243,44 +233,7 @@ p{
 }
 
 
-.card-3{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
-    display: flex;
-    min-height: 200px;
-    padding: 20px;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-/*card pesas*/
-segundo{
-    background-color: aqua;
-    grid-area:segundo ;
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-
-.card-4{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
-    display: flex;
-    min-height: 200px;
-    padding: 20px;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.card-5{
+.cards-3{
     border: 1px solid black;
     width: 210px;
     height: 353px;
@@ -293,7 +246,35 @@ segundo{
     justify-content: space-between;
 }
 
-.card-6{
+
+.cards-4{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cards-5{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards-6{
     border: 1px solid black;
     width: 210px;
     height: 353px;
@@ -308,16 +289,14 @@ segundo{
 }
 
 
-.card-tex{
+.cards-tex{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-fin{
-    background-color: red
-}
+
 
 .boton{
     display: block;
@@ -336,17 +315,25 @@ fin{
     background-color: black;
     
 }
-
+/* termina card productos*/
 
 
 /*seccion cards galeria cards*/
 .galeria{
-    width: 100%;
-    height: 100vh;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
+}
+
+
+galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;*/
+    gap: 50px;
+
 }
 
 
@@ -354,7 +341,7 @@ fin{
 .container-1{
     width: 100%;
     display: flex;
-    max-width: 1100px;
+    align-items: center;
     padding: 40px 0;
     justify-content: center;
 }
@@ -362,11 +349,12 @@ fin{
 .card{
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin: 20px;
+    width: 300PX;
+    padding: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: #fff;
+    margin: 0 5PX;
+    height: 500PX;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -404,111 +392,14 @@ transform: translateY(-3%);
     background: #2fb4cc;
     color: #fff;
 }
+/* termina card galeria*/
 
 
-
-
-
-
-
-
-
-
-
-.padre-flex{
-    display: flex;
-    padding: 10% 0%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    
-}
-
-.contenedor-flex{
-    display: flex;
-    padding: 10% 0%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-
-
-.galeria-1{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
-    display: flex;
-    min-height: 200px;
-    padding: 20px;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.galeria-2{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
-    display: flex;
-    min-height: 200px;
-    padding: 20px;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.galeria-3{
-    border: 1px solid black;
-    width: 210px;
-    height: 353px;
-    display: flex;
-    min-height: 200px;
-    padding: 20px;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.card msj{
+.card-img{
 width: 100%;
 height: 410px;
 
 }
-
-
-
-/*.card{
-    display: flex;
-    overflow: hidden;
-    background: #afff;
-    box-shadow: 0 15px 50px #033f49;
-    border-radius: 10px;
-}*/
-/*.contenedor{
-    width: 60%;
-    height: 30%;
-    display: block;
-    grid-template-rows: 50px 15px 50px;
-    padding: left 20px; ;
-    
-}*/
-
-card-img{
-    background: black;
-    width:  200PX ;
-    height: 200px;
-    background-size:cover;
-    
-}
-
 
 
 .img-perro{
@@ -549,12 +440,32 @@ card-img{
 
     }
     /*productos*/
-    .card{
+    .cards{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .galeria{
         display: flex;
         flex-direction: column;
     }
+
+    .container-1{
+        flex-direction: column;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .card{
+        margin: 5px 0;
+    }
+
 }
-    
+
+
 
 
 
