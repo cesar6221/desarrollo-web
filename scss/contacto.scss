@@ -1,0 +1,154 @@
+
+.principal{
+    height: 20px;
+}
+
+header{
+    display: flex;
+    background-color:   coral;
+    justify-content: space-between;
+    height: 80px; 
+    align-items: center;
+
+}
+
+
+
+
+.index-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal{
+    height: 80px;
+}
+
+.contacto{
+    height: 80px;
+}
+.productos{
+    height: 80px;
+}
+
+.historia{
+    height: 80;
+}
+
+.menu ul{
+    margin:0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li:hover{
+    background: rgb(158, 94, 70)
+
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(197, 35, 35)
+}
+
+.a{
+    font-weight: 600px;
+    position: relative;
+}
+
+h1{
+    color: red; 
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+
+.contenedor-1{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.h2-principal{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: red;
+    
+}
+
+h3{
+    color: red;
+}
+
+.tabla{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.table-border{
+    display: flex;
+    justify-content: center;
+}
+
+
+ul li{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    color: black
+}
+
+
+.env :hover{
+background-color: black;
+}
+
+
+.card-img{
+    width: 100%;
+    height: 410px;
+    
+    }
+    
+    
+    .img-perro{
+        left: 50px;
+    }
+    
+    
+    .perro:hover{
+        transform: scale(1.2);
+    }
+    /** seccion contacto**/
+    
+    .contenedor-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .datos{
+        justify-content: center;
+        justify-content: space-between;
+    }
+    

@@ -1,0 +1,218 @@
+
+.parrafo{
+    padding: 30px;
+}
+
+
+
+
+/*card suplementos*/
+.cards{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+} 
+
+
+
+
+.cards-1{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+
+
+.cards-2{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+
+.cards-3{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+
+.cards-4{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+
+}
+
+.cards-5{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.cards-6{
+    border: 1px solid black;
+    width: 210px;
+    height: 353px;
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    
+}
+
+
+.cards-tex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.boton{
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.div-botone{
+    display: flex;
+    width: 10px;
+    height: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+/* termina card productos*/
+
+
+/*seccion cards galeria cards*/
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 300PX;
+    padding: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 5PX;
+    height: 500PX;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+
+.card:hover{
+box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+.contenido{
+    padding: 15px;
+    text-align: center;
+
+}
+
+.contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+
+/*carrusel historia*/
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-foto-w-75{
+    width: 400px;
+    height: 400px;
+}
