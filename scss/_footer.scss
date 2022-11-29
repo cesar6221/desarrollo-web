@@ -1,34 +1,39 @@
+@import 'variables';
+/****footer****/
+
 .pie{
     background-color: coral;
     
     
-}
 
-p{
-    display: flex;
-    color: black;
-    justify-items: center;
-    align-items: center;
-}
+
+        p{
+        display: flex;
+        color: black;
+        justify-items: center;
+        align-items: center;
+        }
 
 /*seccion de footer de todas las paginas*/
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
+        .logo{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
 /*seccion instagran facebook  whatsAPP*/
-.fac{
-    padding: 10px;
-    height: 40px;
-}
+        .fac{
+        padding: 10px;
+        height: 40px;
+        }
 
-.ins{
-    padding: 10px;
-    height: 40px;
-}
+        .ins{
+        padding: 10px;
+        height: 40px;
+        }
 
-.wha{
-    padding: 10px;
-    height: 40px;
+        .wha{
+        padding: 10px;
+        height: 40px;
+        }   
+    }   
 }

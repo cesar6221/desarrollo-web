@@ -1,5 +1,7 @@
+/****variables****/
+/***colores***/
 .nav-color {
-  background-color: coral !important; }
+  background-color: #ff7f50 !important; }
 
 * {
   margin: 0;
@@ -191,40 +193,40 @@ body {
   width: 400px;
   height: 400px; }
 
+/****variables****/
+/***colores***/
+/****footer****/
 .pie {
-  background-color: coral; }
+  background-color: coral;
+  /*seccion de footer de todas las paginas*/ }
+  .pie p {
+    display: flex;
+    color: black;
+    justify-items: center;
+    align-items: center; }
+  .pie .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /*seccion instagran facebook  whatsAPP*/ }
+    .pie .logo .fac {
+      padding: 10px;
+      height: 40px; }
+    .pie .logo .ins {
+      padding: 10px;
+      height: 40px; }
+    .pie .logo .wha {
+      padding: 10px;
+      height: 40px; }
 
-p {
-  display: flex;
-  color: black;
-  justify-items: center;
-  align-items: center; }
-
-/*seccion de footer de todas las paginas*/
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 20px; }
-
-/*seccion instagran facebook  whatsAPP*/
-.fac {
-  padding: 10px;
-  height: 40px; }
-
-.ins {
-  padding: 10px;
-  height: 40px; }
-
-.wha {
-  padding: 10px;
-  height: 40px; }
-
+/****variables****/
+/***colores***/
 .principal {
   height: 20px; }
 
 header {
   display: flex;
-  background-color: coral;
+  background-color: #ff7f50;
   justify-content: space-between;
   height: 80px;
   align-items: center; }
@@ -264,14 +266,14 @@ header {
 
 li a {
   text-decoration: none;
-  color: #c52323; }
+  color: #9e0000; }
 
 .a {
   font-weight: 600px;
   position: relative; }
 
 h1 {
-  color: red;
+  color: #9e0000;
   justify-content: center;
   display: flex;
   font-size: 50px; }
@@ -283,18 +285,18 @@ h1 {
   padding-bottom: 10px; }
 
 .h2-principal {
-  color: red;
+  color: #9e0000;
   display: flex;
   justify-content: center; }
 
 h2 {
-  color: red; }
+  color: #9e0000; }
 
 h3 {
-  color: red; }
+  color: #9e0000; }
 
 .tabla {
-  color: black;
+  color: #0000;
   display: flex;
   justify-content: center; }
 
@@ -303,15 +305,15 @@ h3 {
   justify-content: center; }
 
 ul li {
-  color: black;
+  color: #0000;
   display: flex;
   justify-content: center; }
 
 .formulario {
-  color: black; }
+  color: #0000; }
 
 .env :hover {
-  background-color: black; }
+  background-color: #0000; }
 
 .card-img {
   width: 100%;

@@ -1,11 +1,11 @@
-
+@import 'variables';
 .principal{
     height: 20px;
 }
 
 header{
     display: flex;
-    background-color:   coral;
+    background-color:   $coral;
     justify-content: space-between;
     height: 80px; 
     align-items: center;
@@ -58,7 +58,7 @@ header{
 
 li a{
     text-decoration: none;
-    color: rgb(197, 35, 35)
+    color: $red
 }
 
 .a{
@@ -67,7 +67,7 @@ li a{
 }
 
 h1{
-    color: red; 
+    color: $red; 
     justify-content: center;
     display: flex;
     font-size: 50px;
@@ -80,22 +80,22 @@ h1{
     padding-bottom: 10px;
 }
 .h2-principal{
-    color: red;
+    color: $red;
     display: flex;
     justify-content: center;
 }
 
 h2{
-    color: red;
+    color: $red;
     
 }
 
 h3{
-    color: red;
+    color: $red;
 }
 
 .tabla{
-    color: black;
+    color: $black;
     display: flex;
     justify-content: center;
 }
@@ -107,18 +107,18 @@ h3{
 
 
 ul li{
-    color: black;
+    color: $black;
     display: flex;
     justify-content: center;
 }
 
 .formulario{
-    color: black
+    color: $black
 }
 
 
 .env :hover{
-background-color: black;
+background-color: $black;
 }
 
 
