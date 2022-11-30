@@ -266,14 +266,14 @@ header {
 
 li a {
   text-decoration: none;
-  color: #9e0000; }
+  color: #ff0000; }
 
 .a {
   font-weight: 600px;
   position: relative; }
 
 h1 {
-  color: #9e0000;
+  color: #ff0000;
   justify-content: center;
   display: flex;
   font-size: 50px; }
@@ -283,34 +283,31 @@ h1 {
   justify-items: center;
   flex-direction: column;
   padding-bottom: 10px; }
-
-.h2-principal {
-  color: #9e0000;
-  display: flex;
-  justify-content: center; }
-
-h2 {
-  color: #9e0000; }
-
-h3 {
-  color: #9e0000; }
-
-.tabla {
-  color: #0000;
-  display: flex;
-  justify-content: center; }
-
-.table-border {
-  display: flex;
-  justify-content: center; }
-
-ul li {
-  color: #0000;
-  display: flex;
-  justify-content: center; }
-
-.formulario {
-  color: #0000; }
+  .contenedor-1 .principal {
+    color: #ff0000;
+    display: flex;
+    justify-content: center; }
+    .contenedor-1 .principal ul {
+      display: flex; }
+    .contenedor-1 .principal ul li {
+      color: #0000;
+      display: flex;
+      justify-content: center; }
+    .contenedor-1 .principal h2 {
+      color: #ff0000; }
+  .contenedor-1 h3 {
+    color: #ff0000; }
+  .contenedor-1 .tabla {
+    color: #0000;
+    display: flex;
+    justify-content: center; }
+  .contenedor-1 .table-border {
+    display: flex;
+    justify-content: center;
+    border: solid 1px;
+    color: #0000; }
+  .contenedor-1 .formulario {
+    color: #0000; }
 
 .env :hover {
   background-color: #0000; }
