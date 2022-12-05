@@ -1,7 +1,7 @@
 /****variables****/
 /***colores***/
 .nav-color {
-  background-color: #ff7f50 !important; }
+  background-color: coral !important; }
 
 * {
   margin: 0;
@@ -197,7 +197,7 @@ body {
 /***colores***/
 /****footer****/
 .pie {
-  background-color: #ff7f50;
+  background-color: coral;
   /*seccion de footer de todas las paginas*/ }
   .pie p {
     display: flex;
@@ -226,7 +226,7 @@ body {
 
 .navbar {
   display: flex;
-  background-color: #ff7f50;
+  background-color: coral;
   justify-content: space-between;
   height: 80px;
   align-items: center; }
@@ -238,16 +238,20 @@ body {
   align-items: center; }
 
 .principal {
-  height: 80px; }
+  height: 80px;
+  background-color: red; }
 
 .contacto {
-  height: 80px; }
+  height: 80px;
+  background-color: red; }
 
 .productos {
-  height: 80px; }
+  height: 80px;
+  background-color: red; }
 
 .historia {
-  height: 80; }
+  height: 80;
+  background-color: red; }
 
 .menu ul {
   margin: 0;
