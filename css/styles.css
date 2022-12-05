@@ -288,16 +288,16 @@ h2 {
 h3 {
   color: #ff0000; }
 
-.principal {
-  color: #ff0000;
-  display: flex;
-  justify-content: center; }
-
 .contenedor-1 {
   display: flex;
   justify-items: center;
   flex-direction: column;
   padding-bottom: 10px; }
+
+.principal {
+  color: #ff0000;
+  display: flex;
+  justify-content: center; }
 
 .contenedor-1-ul {
   color: black;
@@ -347,9 +347,13 @@ h3 {
 
 /** seccion contacto**/
 .contenedor-flex {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px; }
 
-#formulario {
+.formulario {
   display: flex;
   justify-content: center;
   align-items: center;
