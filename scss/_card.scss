@@ -206,25 +206,25 @@ transform: translateY(-3%);
 }
 
 /*carrusel historia*/
+.carousel-inner{
+    width: auto;
+}
 
-.carrusel{
+.carousel{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.carrusel-caption{
+.carousel-caption{
     bottom: 3rem;
     z-index: 10;
 }
 
-.carrusel-item{
+.carousel-item{
     height: 22rem;
+    width: auto;
 }
 
 .img-foto-w-75{
-    
-    top:  0;
-    left: 0;
-    min-width: 100%;
     height: 22rem;
 }
