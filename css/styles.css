@@ -189,9 +189,18 @@ body {
   justify-content: center;
   align-items: center; }
 
+.carrusel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+
+.carrusel-item {
+  height: 22rem; }
+
 .img-foto-w-75 {
-  width: 400px;
-  height: 400px; }
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 22rem; }
 
 /****variables****/
 /***colores***/
@@ -224,12 +233,24 @@ body {
 .principal {
   height: 20px; }
 
-.navbar {
-  display: flex;
-  background-color: coral;
-  justify-content: space-between;
-  height: 80px;
-  align-items: center; }
+.fondo-transparente {
+  background: transparent; }
+
+.mbt-15 {
+  margin-bottom: 15px;
+  margin-top: 15px; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.justificado {
+  text-align: justify; }
+
+.nav-color {
+  background-color: coral !important; }
+
+body {
+  background-image: linear-gradient(to left, red, yellow); }
 
 .index-main {
   display: flex;
@@ -380,3 +401,10 @@ h3 {
     width: 100%; }
   .card {
     margin: 5px 0; } }
+  @media (min-width: 1px) and (max-width: 991.98px) and (min-width: 40em) {
+    .card .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4; }
+    .card .featurette-heading {
+      font-weight: bold; } }

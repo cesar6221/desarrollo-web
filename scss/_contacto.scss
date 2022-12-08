@@ -9,14 +9,31 @@
     height: 20px;
 }
 
-.navbar {
-    display: flex;
-    background-color: $coral;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-
+.fondo-transparente {
+    background: transparent;
 }
+
+.mbt-15 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+
+.justificado {text-align: justify;}.nav-color {
+    background-color: coral !important;
+}
+
+body {
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+
+
+
+
 
 
 

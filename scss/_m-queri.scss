@@ -32,6 +32,18 @@
 
     .card{
         margin: 5px 0;
-    }
+        @media (min-width: 40em) {
+            .carousel-caption p {
+                margin-bottom: 1.25rem;
+                font-size: 1.25rem;
+                line-height: 1.4;
+            }
+        
+            .featurette-heading {
+                font-weight: bold;
+            }
+        }
+}
 
 }
+
