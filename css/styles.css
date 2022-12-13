@@ -253,6 +253,9 @@ body {
 body {
   background-image: linear-gradient(to left, red, yellow); }
 
+.nav-link {
+  color: black; }
+
 .index-main {
   display: flex;
   flex-direction: column;
@@ -403,7 +406,9 @@ h3 {
   .card {
     margin: 5px 0; } }
   @media (min-width: 1px) and (max-width: 991.98px) and (min-width: 40em) {
-    .card .carousel-caption p {
+    .card .carousel-item {
+      display: flex;
+      justify-content: center;
       margin-bottom: 1.25rem;
       font-size: 1.25rem;
       line-height: 1.4; }
